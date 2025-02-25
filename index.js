@@ -73,6 +73,33 @@ app.get("/events/:id", async (req, res) => {
     }
 });
 
+
+// Get event by filter
+const getEventByFilter = async (event_type) => {
+    try {
+        const events = await Event.find({event_type});
+        return events;
+    } catch (error) {
+        throw error;
+    }
+};
+app.get("/events/filter/:event_type", async (req, res) => {
+    try {
+        const { event_type } = req.params;
+        const events = await getEventByFilter(event_type);
+        if (events.length>0) {
+            res.status(200).json({
+                message: "Event fetched successfully.",
+                data: events,
+            });
+        } else {
+            res.status(404).json({ error: "No event found." });
+        }
+    } catch (error) {
+        res.status(500).json({ error: "Failed to fetch event." });
+    }
+});
+
 // Get event by keyword
 const getEventByKeyword = async (keyword) => {
     try {

@@ -4,9 +4,7 @@ require("dotenv").config();
 const fs = require("fs");
 const Event = require("./models/event.model");
 const { initializeDB } = require("./db/db.config");
-const jsonData = fs.readFileSync("event.json", "utf-8");
 
-const eventData = JSON.parse(jsonData);
 const app = express();
 const PORT = process.env.PORT;
 const corsOptions = {

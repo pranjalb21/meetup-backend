@@ -1,0 +1,366 @@
+[
+    {
+        "event_title": "Marketing Seminar",
+        "hosted_by": "Marketing Experts",
+        "event_image": "https://example.com/event_image.jpg",
+        "event_type": "Offline",
+        "date_time": {
+            "start": "2023-08-15T10:00:00",
+            "end": "2023-08-15T12:00:00"
+        },
+        "location": {
+            "venue": "Marketing City",
+            "address": "789 Marketing Avenue, City"
+        },
+        "price": "₹3,000",
+        "details": "Seminar by industry leaders on the latest digital marketing trends.",
+        "additional_information": {
+            "dress_code": "Smart casual",
+            "age_restrictions": "18 and above"
+        },
+        "event_tags": ["Marketing", "Digital"],
+        "speakers": [
+            {
+                "name": "Sarah Johnson",
+                "title": "Marketing Manager",
+                "image": "https://example.com/sarah_johnson.jpg"
+            },
+            {
+                "name": "Michael Brown",
+                "title": "SEO Specialist",
+                "image": "https://example.com/michael_brown.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Tech Innovations 2023",
+        "hosted_by": "Tech World",
+        "event_image": "https://example.com/tech_innovations.jpg",
+        "event_type": "Both",
+        "date_time": {
+            "start": "2023-09-10T09:00:00",
+            "end": "2023-09-10T05:00:00"
+        },
+        "location": {
+            "venue": "Tech Hub",
+            "address": "123 Innovation Drive, Tech City"
+        },
+        "price": "₹5,000",
+        "details": "A conference showcasing the latest in tech innovations and trends.",
+        "additional_information": {
+            "dress_code": "Business casual",
+            "age_restrictions": "18 and above"
+        },
+        "event_tags": ["Technology", "Innovation"],
+        "speakers": [
+            {
+                "name": "Alex Rogers",
+                "title": "CTO",
+                "image": "https://example.com/alex_rogers.jpg"
+            },
+            {
+                "name": "Emily Carter",
+                "title": "AI Specialist",
+                "image": "https://example.com/emily_carter.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Health & Wellness Expo",
+        "hosted_by": "Wellness Gurus",
+        "event_image": "https://example.com/health_wellness.jpg",
+        "event_type": "Offline",
+        "date_time": {
+            "start": "2023-10-05T08:00:00",
+            "end": "2023-10-05T04:00:00"
+        },
+        "location": {
+            "venue": "Wellness Center",
+            "address": "456 Health Lane, Wellness City"
+        },
+        "price": "₹2,500",
+        "details": "Expo featuring the latest in health and wellness products and services.",
+        "additional_information": {
+            "dress_code": "Comfortable attire",
+            "age_restrictions": "All ages"
+        },
+        "event_tags": ["Health", "Wellness"],
+        "speakers": [
+            {
+                "name": "Dr. Lisa White",
+                "title": "Nutritionist",
+                "image": "https://example.com/dr_lisa_white.jpg"
+            },
+            {
+                "name": "John Green",
+                "title": "Fitness Coach",
+                "image": "https://example.com/john_green.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Creative Art & Craft Workshop",
+        "hosted_by": "Art Masters",
+        "event_image": "https://example.com/art_craft.jpg",
+        "event_type": "Online",
+        "date_time": {
+            "start": "2023-11-20T01:00:00",
+            "end": "2023-11-20T03:00:00"
+        },
+        "location": {
+            "venue": "Zoom Meeting",
+            "address": "Online"
+        },
+        "price": "₹1,000",
+        "details": "An online workshop for art and craft enthusiasts to enhance their skills.",
+        "additional_information": {
+            "dress_code": "Casual",
+            "age_restrictions": "15 and above"
+        },
+        "event_tags": ["Art", "Craft"],
+        "speakers": [
+            {
+                "name": "Emma Stone",
+                "title": "Artist",
+                "image": "https://example.com/emma_stone.jpg"
+            },
+            {
+                "name": "Tom Harris",
+                "title": "Craft Expert",
+                "image": "https://example.com/tom_harris.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Business Networking Night",
+        "hosted_by": "BizNet",
+        "event_image": "https://example.com/business_networking.jpg",
+        "event_type": "Offline",
+        "date_time": {
+            "start": "2023-12-15T07:00:00",
+            "end": "2023-12-15T09:00:00"
+        },
+        "location": {
+            "venue": "BizHub",
+            "address": "678 Business Street, Business City"
+        },
+        "price": "₹4,000",
+        "details": "A networking event for professionals to connect and share ideas.",
+        "additional_information": {
+            "dress_code": "Formal",
+            "age_restrictions": "21 and above"
+        },
+        "event_tags": ["Business", "Networking"],
+        "speakers": [
+            {
+                "name": "Robert Lee",
+                "title": "CEO",
+                "image": "https://example.com/robert_lee.jpg"
+            },
+            {
+                "name": "Jane Smith",
+                "title": "Entrepreneur",
+                "image": "https://example.com/jane_smith.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Gourmet Cooking Masterclass",
+        "hosted_by": "Culinary Experts",
+        "event_image": "https://example.com/cooking_masterclass.jpg",
+        "event_type": "Both",
+        "date_time": {
+            "start": "2023-07-20T01:00:00",
+            "end": "2023-07-20T03:00:00"
+        },
+        "location": {
+            "venue": "Culinary School",
+            "address": "890 Culinary Avenue, Food City"
+        },
+        "price": "₹6,000",
+        "details": "A masterclass for aspiring chefs to learn gourmet cooking techniques.",
+        "additional_information": {
+            "dress_code": "Chef attire",
+            "age_restrictions": "18 and above"
+        },
+        "event_tags": ["Cooking", "Gourmet"],
+        "speakers": [
+            {
+                "name": "Chef Gordon",
+                "title": "Head Chef",
+                "image": "https://example.com/chef_gordon.jpg"
+            },
+            {
+                "name": "Chef Anna",
+                "title": "Pastry Chef",
+                "image": "https://example.com/chef_anna.jpg"
+            }
+        ]
+    },
+
+    {
+        "event_title": "AI Conference 2023",
+        "hosted_by": "Tech Innovators",
+        "event_image": "https://example.com/ai_conference.jpg",
+        "event_type": "Offline",
+        "date_time": {
+            "start": "2023-10-01T09:00:00",
+            "end": "2023-10-01T05:00:00"
+        },
+        "location": {
+            "venue": "Tech Arena",
+            "address": "100 AI Lane, Tech City"
+        },
+        "price": "₹7,000",
+        "details": "A conference dedicated to advancements in artificial intelligence.",
+        "additional_information": {
+            "dress_code": "Business casual",
+            "age_restrictions": "18 and above"
+        },
+        "event_tags": ["AI", "Technology"],
+        "speakers": [
+            {
+                "name": "Dr. Alan Turing",
+                "title": "AI Researcher",
+                "image": "https://example.com/alan_turing.jpg"
+            },
+            {
+                "name": "Dr. Grace Hopper",
+                "title": "Computer Scientist",
+                "image": "https://example.com/grace_hopper.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Photography Expo",
+        "hosted_by": "Photo Masters",
+        "event_image": "https://example.com/photo_expo.jpg",
+        "event_type": "Both",
+        "date_time": {
+            "start": "2023-11-10T10:00:00",
+            "end": "2023-11-10T06:00:00"
+        },
+        "location": {
+            "venue": "Photo Studio",
+            "address": "200 Picture Lane, Photo City"
+        },
+        "price": "₹4,500",
+        "details": "An expo showcasing the latest in photography gear and techniques.",
+        "additional_information": {
+            "dress_code": "Comfortable attire",
+            "age_restrictions": "All ages"
+        },
+        "event_tags": ["Photography", "Art"],
+        "speakers": [
+            {
+                "name": "Annie Leibovitz",
+                "title": "Photographer",
+                "image": "https://example.com/annie_leibovitz.jpg"
+            },
+            {
+                "name": "Steve McCurry",
+                "title": "Photojournalist",
+                "image": "https://example.com/steve_mccurry.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Startup Pitch Night",
+        "hosted_by": "Startup Hub",
+        "event_image": "https://example.com/startup_pitch.jpg",
+        "event_type": "Offline",
+        "date_time": {
+            "start": "2023-12-05T07:00:00",
+            "end": "2023-12-05T09:00:00"
+        },
+        "location": {
+            "venue": "Startup Space",
+            "address": "300 Innovation Drive, Startup City"
+        },
+        "price": "₹5,000",
+        "details": "An event for entrepreneurs to pitch their startups to investors.",
+        "additional_information": {
+            "dress_code": "Formal",
+            "age_restrictions": "21 and above"
+        },
+        "event_tags": ["Startup", "Investment"],
+        "speakers": [
+            {
+                "name": "Elon Musk",
+                "title": "Entrepreneur",
+                "image": "https://example.com/elon_musk.jpg"
+            },
+            {
+                "name": "Sheryl Sandberg",
+                "title": "COO",
+                "image": "https://example.com/sheryl_sandberg.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Eco-Friendly Living Workshop",
+        "hosted_by": "Green Earth",
+        "event_image": "https://example.com/eco_workshop.jpg",
+        "event_type": "Online",
+        "date_time": {
+            "start": "2023-11-25T02:00:00",
+            "end": "2023-11-25T04:00:00"
+        },
+        "location": {
+            "venue": "Online Webinar",
+            "address": "Online"
+        },
+        "price": "₹1,500",
+        "details": "A workshop on sustainable living and eco-friendly practices.",
+        "additional_information": {
+            "dress_code": "Casual",
+            "age_restrictions": "All ages"
+        },
+        "event_tags": ["Eco-Friendly", "Sustainability"],
+        "speakers": [
+            {
+                "name": "Jane Goodall",
+                "title": "Primatologist",
+                "image": "https://example.com/jane_goodall.jpg"
+            },
+            {
+                "name": "David Attenborough",
+                "title": "Naturalist",
+                "image": "https://example.com/david_attenborough.jpg"
+            }
+        ]
+    },
+    {
+        "event_title": "Music Fest 2023",
+        "hosted_by": "Music Lovers",
+        "event_image": "https://example.com/music_fest.jpg",
+        "event_type": "Both",
+        "date_time": {
+            "start": "2023-12-20T04:00:00",
+            "end": "2023-12-20T10:00:00"
+        },
+        "location": {
+            "venue": "Concert Hall",
+            "address": "400 Melody Road, Music City"
+        },
+        "price": "₹3,500",
+        "details": "A music festival featuring various genres and artists.",
+        "additional_information": {
+            "dress_code": "Festival attire",
+            "age_restrictions": "18 and above"
+        },
+        "event_tags": ["Music", "Festival"],
+        "speakers": [
+            {
+                "name": "Adele",
+                "title": "Singer",
+                "image": "https://example.com/adele.jpg"
+            },
+            {
+                "name": "John Legend",
+                "title": "Musician",
+                "image": "https://example.com/john_legend.jpg"
+            }
+        ]
+    }
+]

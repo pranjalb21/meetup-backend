@@ -116,8 +116,12 @@ const getEventByKeyword = async (keyword) => {
             combinedEvents.push(e);
         }
         for(const e of keywordEvents){
-            combinedEvents.push(e);
+            const isPresent = combinedEvents.some(ev=>JSON.stringify(ev)===JSON.stringify(e))
+            if(!isPresent){
+                combinedEvents.push(e)
+            }
         }
+        console.log(combinedEvents);
         return combinedEvents;
     } catch (error) {
         throw error;

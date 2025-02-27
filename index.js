@@ -108,7 +108,7 @@ const getEventByKeyword = async (keyword) => {
                 $options: "i",
             },
         });
-        const tag = keyword.charAt(0) + keyword.slice(1)
+        const tag = keyword.charAt(0).toUpperCase() + keyword.slice(1)
         const keywordEvents = await Event.find({
             event_tags: { $in: tag },
         });

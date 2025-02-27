@@ -121,7 +121,6 @@ const getEventByKeyword = async (keyword) => {
                 combinedEvents.push(e)
             }
         }
-        console.log(combinedEvents);
         return combinedEvents;
     } catch (error) {
         throw error;
